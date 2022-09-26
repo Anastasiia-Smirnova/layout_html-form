@@ -1,1 +1,12 @@
-/* styles go here */
+div {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+.button {
+  margin-top: 20px;
+}
