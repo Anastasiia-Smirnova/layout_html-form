@@ -11,7 +11,59 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
+      <fieldset>
+        <legend>Personal informatoin</legend>
+        <label for="surname">Surname</label>
+        <input type="text" name="surname"><br>
+        <label for="name">Name</label>
+        <input type="text" name="name"><br>
+        <label for="age">How old are you?</label>
+        <input type="text" name="age" value="12"><br>
+        <label for="date">Full date of birth:</label>
+        <input type="text" name="date" value="mm/dd/yyyy"><br>
+        <label for="term">I accept the term of agreement</label>
+        <input type="checkbox" name="term"><br>
+      </fieldset>
+      <fieldset>
+        <legend>Registration</legend>
+        <label for="email">E-mail:</label>
+        <input type="text" name="email" value="email@example.com"><br>
+        <label for="password">Password</label>
+        <input type="text" name="password"><br>
+      </fieldset>
+      <fieldset>
+        <legend>An interesting fact about you!</legend>
+        <label>Do you love cats?</label>
+        <input type="radio" name="cats" value="Yes">
+        <label for="cats">Yes</label>
+        <input type="radio" name="cats" value="No">
+        <label for="cats">No</label><br>
+        <label for="color">What is your favorite color?</label>
+        <input type="color" name="color" value="#000000"><br>
+        <label for="bedtime">What time do you go to bed?</label>
+        <input type="time" name="bedtime"><br>
+        <label for="car">What are your favorite brand of cars?</label>
+        <select name="car">
+          <option value="BMW">BMW</option>
+          <option value="Audi">Audi</option>
+          <option value="Lada">Lada</option>
+        </select>
+        <br>
+        <label for="rate">How do you rate your work?</label>
+        <input type="range" name="rate"><br>
+      </fieldset>
+      <fieldset>
+        <legend>Additional info:</legend>
+        <label for="comments">Comments:</label>
+        <textarea name="comments" rows="2" cols="20"></textarea><br>
+        <label for="rec">Would you recommend us?</label>
+        <select name="rec">
+          <option value="yes">yes</option>
+          <option value="no">no</option>
+        </select>
+      </fieldset>
+    </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
