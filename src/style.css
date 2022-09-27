@@ -1,12 +1,16 @@
+body {
+  margin: 0;
+  padding: 8px;
+}
+
 div {
   margin-bottom: 10px;
 }
 
 fieldset {
-  margin-top: 20px;
-  padding-bottom: 0px;
+  margin-bottom: 20px;
 }
 
-.button {
-  margin-top: 20px;
+fieldset div:last-child {
+  margin-bottom: 0;
 }
