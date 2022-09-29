@@ -1,8 +1,3 @@
-/* body {
-  margin: 0;
-  padding: 8px;
-} */
-
 .input {
   margin-bottom: 10px;
 }
@@ -11,6 +6,6 @@
   margin-bottom: 20px;
 }
 
-.field div:last-child {
+.input:last-child {
   margin-bottom: 0;
 }
